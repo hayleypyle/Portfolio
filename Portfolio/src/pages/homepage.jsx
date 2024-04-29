@@ -1,26 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hayley Pyle Portfiolo</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './styles.css'
+
+export default function HomePage() {
+    return (
+    <div>
     <header>
-        <a href="#">Portfolio</a>
-        <a href="./resume.html">Resume</a>
+        <Link to="/">Portfolio</Link>
+        <Link to="/resume">Resume</Link>
         <a href="https://github.com/hayleypyle">GitHub</a>
         <a href="https://www.linkedin.com/in/hayley-pyle/">LinkedIn</a>
-        <a href="#">Contact Me</a>
     </header>
-    <div className="top-container"><h1>Hello, I'm Hayley Pyle, full-stack software developer.</h1></div>
-    <div className="portfolio">
-        <div className="title"><h3>Portfolio</h3></div>
-        <div className="project">
+    <div class="top-container"><h1>Hello, I'm Hayley Pyle, full-stack software developer.</h1></div>
+    <div class="portfolio">
+        <div class="title"><h3>Portfolio</h3></div>
+        <div class="project">
             <h3>Company Website</h3>
             <a href="https://hayleypyle.github.io/cgcwebsite/">View Website</a>
             <a href="https://github.com/hayleypyle/cgcwebsite">Github Repo</a>
@@ -28,14 +22,14 @@
                 The website has a nav bar, is responsive for mobile users, 
                 and contains many pages like galleries and a contact us form. </p>
         </div>
-        <div className="project">
+        <div class="project">
             <h3>Website with Search Engine</h3>
             <a href="https://hayleypyle.github.io/GIPHY-search/">View Website</a>
             <a href="https://github.com/hayleypyle/GIPHY-search">Github Repo</a>
             <p>This website can search for gifs using the GIPHY API, and displays 
                 them in a grid for the user to view and choose from. </p>
         </div>
-        <div className="project">
+        <div class="project">
             <h3>To Do List with React and Redux</h3>
             <a href="https://hayleypyle.github.io/ToDo-Redux/#/todos">View Website</a>
             <a href="https://github.com/hayleypyle/GIPHY-search">Github Repo</a>
@@ -43,7 +37,7 @@
                 Users can add tasks, delete tasks, check them as complete and filter tasks
                 by their completion status. </p>
         </div>
-        <div className="project">
+        <div class="project">
             <h3>Stock Trading Portfolio with Python Django</h3>
             <a href="https://paper-trader-7i1n.onrender.com/">View Website</a>
             <a href="https://github.com/hayleypyle/Paper-Trader">Github Repo</a>
@@ -51,7 +45,7 @@
                 The user's portfolio can simulate buying and selling stocks and saves the user's portfolio history.</p>
 
         </div>
-        <div className="project">
+        <div class="project">
             <h3>Forum website with user registration and login</h3>
             <a href="https://hayleypyle-scholarsync.netlify.app/">View Website</a>
             <a href="https://github.com/hayleypyle/ScholarSync">Github Repo</a>
@@ -61,16 +55,16 @@
 
         </div>
     </div>
-    <div className="contact">
+    {/* <div class="contact">
         <h1>Contact Me</h1>
         
         <form>
-            <div className="input"><input type="text" placeholder="Name"></input></div>
-            <div className="input"><input type="email" placeholder="Email"></input></div>
-            <div className="message"><textarea placeholder="Message"></textarea></div>
+            <div class="input"><input type="text" placeholder="Name"></input></div>
+            <div class="input"><input type="email" placeholder="Email"></input></div>
+            <div class="message"><textarea placeholder="Message"></textarea></div>
             <button>Submit</button>
         </form>
+    </div> */}
     </div>
-
-</body>
-</html>
+  )
+}

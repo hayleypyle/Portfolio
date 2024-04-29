@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
+import websiteImage from '../img/websiteImage.jpg'
+import gifFinderImage from '../img/gifFinderImage.jpg'
+import todoImage from '../img/todoImage.jpg'
+import paperTraderImage from '../img/paperTraderImage.jpg'
+import scholarSyncImage from '../img/scholarSyncImage.jpg'
 
 export default function HomePage() {
     return (
@@ -16,6 +21,8 @@ export default function HomePage() {
         <div class="title"><h3>Portfolio</h3></div>
         <div class="project">
             <h3>Company Website</h3>
+            <h5>September 2023</h5>
+            <img src={websiteImage}></img>
             <a href="https://hayleypyle.github.io/cgcwebsite/">View Website</a>
             <a href="https://github.com/hayleypyle/cgcwebsite">Github Repo</a>
             <p>This is a website for Clinton Glass Company in Knoxville Tennessee.
@@ -24,6 +31,8 @@ export default function HomePage() {
         </div>
         <div class="project">
             <h3>Website with Search Engine</h3>
+            <h5>November 2023</h5>
+            <img src={gifFinderImage}></img>
             <a href="https://hayleypyle.github.io/GIPHY-search/">View Website</a>
             <a href="https://github.com/hayleypyle/GIPHY-search">Github Repo</a>
             <p>This website can search for gifs using the GIPHY API, and displays 
@@ -31,6 +40,8 @@ export default function HomePage() {
         </div>
         <div class="project">
             <h3>To Do List with React and Redux</h3>
+            <h5>January 2024</h5>
+            <img src={todoImage}></img>
             <a href="https://hayleypyle.github.io/ToDo-Redux/#/todos">View Website</a>
             <a href="https://github.com/hayleypyle/GIPHY-search">Github Repo</a>
             <p>An app built with React and Redux that is a functional to do list. 
@@ -39,6 +50,8 @@ export default function HomePage() {
         </div>
         <div class="project">
             <h3>Stock Trading Portfolio with Python Django</h3>
+            <h5>March 2024</h5>
+            <img src={paperTraderImage}></img>
             <a href="https://paper-trader-7i1n.onrender.com/">View Website</a>
             <a href="https://github.com/hayleypyle/Paper-Trader">Github Repo</a>
             <p>An app that displays current stock prices and graphs for 3 different companies. 
@@ -47,6 +60,8 @@ export default function HomePage() {
         </div>
         <div class="project">
             <h3>Forum website with user registration and login</h3>
+            <h5>April 2024</h5>
+            <img src={scholarSyncImage}></img>
             <a href="https://hayleypyle-scholarsync.netlify.app/">View Website</a>
             <a href="https://github.com/hayleypyle/ScholarSync">Github Repo</a>
             <p> A 3-tier architecture project that uses a database to store user login information,

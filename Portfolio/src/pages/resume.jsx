@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import resume from '../img/Hayley_Pyle_Resume.pdf'
+import { Document, Page, pdfjs} from 'react-pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 import './styles.css'
 
 export default function Resume() {
@@ -13,7 +16,12 @@ export default function Resume() {
         <a href="https://www.linkedin.com/in/hayley-pyle/">LinkedIn</a>
         </header>
         </div>
-        <h1>Resume</h1>
+        <div className="resume">
+            <h2>Resume</h2>
+        <iFrame src={resume}></iFrame>
+        </div>
+  
+    
         </>
     
     )

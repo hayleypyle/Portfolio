@@ -91,9 +91,13 @@ export default function HomePage() {
             <a href="https://hayleypyle-scholarsync.netlify.app/">View Website</a>
             <a href="https://github.com/hayleypyle/ScholarSync">Github Repo</a>
             </div>
+            <div className="description">
             <p> A 3-tier architecture project that uses a database to store user login information,
-                questions submitted on the forum and answers from users, an application layer implementing node.js and express, and a presentation layer using React.
-                </p>
+                questions submitted on the forum and answers from users, an application layer implementing node.js and express, and a presentation layer using React.</p></div>
+                <div className="demo"><p>Create an account and login, or use the demo user:</p>
+                <p>username: demo-user</p> <p>password:DEMO@user01</p></div>
+                
+                
 
         </div>
     </div>

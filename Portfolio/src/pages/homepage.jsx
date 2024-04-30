@@ -20,8 +20,10 @@ export default function HomePage() {
     <div class="portfolio">
         <div class="title"><h2>my portfolio</h2></div>
         <div class="project">
+            <div className="project-title">
             <h3>Company Website</h3>
             <h5>September 2023</h5>
+            </div>
             
             <a href="https://hayleypyle.github.io/cgcwebsite/">
             <img src={websiteImage}></img></a>
@@ -36,8 +38,11 @@ export default function HomePage() {
             
         </div>
         <div class="project">
+
+            <div className="project-title">
             <h3>Website with Search Engine</h3>
             <h5>November 2023</h5>
+            </div>
 
             <a href="https://hayleypyle.github.io/GIPHY-search/">
             <img src={gifFinderImage}></img></a>
@@ -50,9 +55,13 @@ export default function HomePage() {
             <p>This website can search for gifs using the GIPHY API, and displays 
                 them in a grid for the user to view and choose from. </p>
         </div>
+
         <div class="project">
+
+            <div className="project-title">
             <h3>To Do List with React and Redux</h3>
             <h5>January 2024</h5>
+            </div>
 
             <a href="https://hayleypyle.github.io/ToDo-Redux/#/todos">
             <img src={todoImage}></img>
@@ -68,8 +77,10 @@ export default function HomePage() {
                 by their completion status. </p>
         </div>
         <div class="project">
+            <div className="project-title">
             <h3>Stock Trading Portfolio with Python Django</h3>
             <h5>March 2024</h5>
+            </div>
             <a href="https://paper-trader-7i1n.onrender.com/">
             <img src={paperTraderImage}></img></a>
 
@@ -82,8 +93,11 @@ export default function HomePage() {
 
         </div>
         <div class="project">
-            <h3>Forum website with user registration and login</h3>
-            <h5>April 2024</h5>
+            <div className="project-title">
+                <h3>Forum website with user registration and login</h3>
+                <h5>April 2024</h5>
+            </div>
+
             <a href="https://hayleypyle-scholarsync.netlify.app/">
             <img src={scholarSyncImage}></img></a>
 

@@ -47,7 +47,7 @@ a {
 
 }
 .title{
-    margin-top:5%;
+    margin-bottom:2%;
     width:100%;
     text-align:center;
 
@@ -63,16 +63,23 @@ a {
 }
 
 .project{
-    min-height:300px;
-    max-width:350px;
+    min-height:400px;
+    width:350px;
     padding:20px;
     margin:10px;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
-    font-size:14px;
+    font-size:16px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.project-title{
+    text-align:center;
+}
+.project-title h3{
+    font-size:20px;
 }
 
 img{
@@ -84,7 +91,8 @@ img{
     flex-direction:row;
     align-items: center;
     justify-content: space-evenly;
-    width:50%;
+    width:70%;
+    font-size:14px;
 }
 iFrame{
     width: 80vw;

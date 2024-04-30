@@ -25,11 +25,11 @@ export default function HomePage() {
             <h5>September 2023</h5>
             </div>
             
-            <a href="https://hayleypyle.github.io/cgcwebsite/">
+            <a href="https://www.cgc.hayleypyle.com">
             <img src={websiteImage}></img></a>
 
             <div className="links">
-            <a href="https://hayleypyle.github.io/cgcwebsite/">View Website</a>
+            <a href="https://www.cgc.hayleypyle.com/">View Website</a>
             <a href="https://github.com/hayleypyle/cgcwebsite">Github Repo</a>
             </div>
             <p>This is a website for Clinton Glass Company in Knoxville Tennessee.
@@ -44,12 +44,12 @@ export default function HomePage() {
             <h5>November 2023</h5>
             </div>
 
-            <a href="https://hayleypyle.github.io/GIPHY-search/">
+            <a href="https://www.gif.hayleypyle.com">
             <img src={gifFinderImage}></img></a>
 
 
             <div className="links">
-            <a href="https://hayleypyle.github.io/GIPHY-search/">View Website</a>
+            <a href="https://www.gif.hayleypyle.com">View Website</a>
             <a href="https://github.com/hayleypyle/GIPHY-search">Github Repo</a>
             </div>
             <p>This website can search for gifs using the GIPHY API, and displays 
@@ -63,13 +63,13 @@ export default function HomePage() {
             <h5>January 2024</h5>
             </div>
 
-            <a href="https://hayleypyle.github.io/ToDo-Redux/#/todos">
+            <a href="https://www.todo.hayleypyle.com">
             <img src={todoImage}></img>
             </a>
 
 
             <div className="links">
-            <a href="https://hayleypyle.github.io/ToDo-Redux/#/todos">View Website</a>
+            <a href="https://www.todo.hayleypyle.com">View Website</a>
             <a href="https://github.com/hayleypyle/ToDo-Redux">Github Repo</a>
             </div>
             <p>An app built with React and Redux that is a functional to do list. 
@@ -81,11 +81,11 @@ export default function HomePage() {
             <h3>Stock Trading Portfolio with Python Django</h3>
             <h5>March 2024</h5>
             </div>
-            <a href="https://paper-trader-7i1n.onrender.com/">
+            <a href="https://www.trader.hayleypyle.com">
             <img src={paperTraderImage}></img></a>
 
             <div className="links">
-            <a href="https://paper-trader-7i1n.onrender.com/">View Website</a>
+            <a href="https://www.trader.hayleypyle.com">View Website</a>
             <a href="https://github.com/hayleypyle/Paper-Trader">Github Repo</a>
             </div>
             <p>An app that displays current stock prices and graphs for 3 different companies. 
@@ -98,11 +98,11 @@ export default function HomePage() {
                 <h5>April 2024</h5>
             </div>
 
-            <a href="https://hayleypyle-scholarsync.netlify.app/">
+            <a href="https://www.scholarsync.hayleypyle.com/">
             <img src={scholarSyncImage}></img></a>
 
             <div className="links">
-            <a href="https://hayleypyle-scholarsync.netlify.app/">View Website</a>
+            <a href="https://www.scholarsync.hayleypyle.com/">View Website</a>
             <a href="https://github.com/hayleypyle/ScholarSync">Github Repo</a>
             </div>
             <div className="description">

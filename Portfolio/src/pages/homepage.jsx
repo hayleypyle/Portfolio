@@ -24,6 +24,9 @@ export default function HomePage() {
             <h3>Company Website</h3>
             <h5>September 2023</h5>
             </div>
+            <div className="languages">
+                <p>HTML, CSS</p>
+            </div>
             
             <a href="https://www.cgc.hayleypyle.com">
             <img src={websiteImage}></img></a>
@@ -32,7 +35,7 @@ export default function HomePage() {
             <a href="https://www.cgc.hayleypyle.com/">View Website</a>
             <a href="https://github.com/hayleypyle/cgcwebsite">Github Repo</a>
             </div>
-            <p>This is a website for Clinton Glass Company in Knoxville Tennessee.
+            <p>This is a website for Clinton Glass Company in Knoxville, Tennessee.
                 The website has a nav bar, is responsive for mobile users, 
                 and contains many pages like galleries and a contact us form. </p>
             
@@ -40,8 +43,11 @@ export default function HomePage() {
         <div class="project">
 
             <div className="project-title">
-            <h3>Website with Search Engine</h3>
+            <h3>Giphy Search Engine</h3>
             <h5>November 2023</h5>
+            </div>
+            <div className="languages">
+                <p>JavaScript, HTML, CSS </p>
             </div>
 
             <a href="https://www.gif.hayleypyle.com">
@@ -59,8 +65,11 @@ export default function HomePage() {
         <div class="project">
 
             <div className="project-title">
-            <h3>To Do List with React and Redux</h3>
+            <h3>To Do List</h3>
             <h5>January 2024</h5>
+            </div>
+            <div className="languages">
+                <p>React, Redux, HTML, CSS</p>
             </div>
 
             <a href="https://www.todo.hayleypyle.com">
@@ -78,9 +87,13 @@ export default function HomePage() {
         </div>
         <div class="project">
             <div className="project-title">
-            <h3>Stock Trading Portfolio with Python Django</h3>
+            <h3>Paper-Trader</h3>
             <h5>March 2024</h5>
             </div>
+            <div className="languages">
+                <p>Python, Django, Plotly.js, CSS</p>
+            </div>
+
             <a href="https://www.trader.hayleypyle.com">
             <img src={paperTraderImage}></img></a>
 
@@ -88,14 +101,19 @@ export default function HomePage() {
             <a href="https://www.trader.hayleypyle.com">View Website</a>
             <a href="https://github.com/hayleypyle/Paper-Trader">Github Repo</a>
             </div>
+    
+
             <p>An app that displays current stock prices and graphs for 3 different companies. 
                 The user's portfolio can simulate buying and selling stocks and saves the user's portfolio history.</p>
 
         </div>
         <div class="project">
             <div className="project-title">
-                <h3>Forum website with user registration and login</h3>
+                <h3>ScholarSync</h3>
                 <h5>April 2024</h5>
+                <div className="languages">
+                    <p>Node.js, mySQL, React, JavaScript</p>
+            </div>
             </div>
 
             <a href="https://www.scholarsync.hayleypyle.com/">
@@ -107,7 +125,7 @@ export default function HomePage() {
             </div>
             <div className="description">
             <p> A 3-tier architecture project that uses a database to store user login information,
-                questions submitted on the forum and answers from users, an application layer implementing node.js and express, and a presentation layer using React.</p></div>
+                questions submitted on the forum, and answers from users. Contains an application layer implementing node.js and express, and a presentation layer made with React.</p></div>
                 <div className="demo"><p>Create an account and login, or use the demo user:</p>
                 <p>username: demo-user</p> <p>password:DEMO@user01</p></div>
                 

@@ -94,6 +94,15 @@ img{
     width:70%;
     font-size:14px;
 }
+
+.languages{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    padding:5px;
+    font-size:14px;
+}
 iFrame{
     width: 80vw;
     height:80vh;
